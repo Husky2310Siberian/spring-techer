@@ -12,13 +12,11 @@ import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 @Controller
 @RequestMapping("/school")
@@ -29,6 +27,20 @@ public class TeacherController {
     private final TeacherService teacherService;
     private final RegionService regionService;
     private final Mapper mapper;
+
+    @GetMapping("/teachers")
+    public String getPaginatedTeachers(@RequestParam(defaultValue = "0") int page,
+                                       @RequestParam(defaultValue = "1") int size,
+                                       Model model){
+
+        Page<TeacherReadOnlyDTO> teachersPage = teacherService.getPaginatedTeachers(page,size);
+
+        model.addAttribute("teachersPage", teachersPage);
+        model.addAttribute("currentPage", page);
+        model.addAttribute("totalPages", teachersPage.getTotalPages());
+
+        return "teachers";
+    }
 
     @GetMapping("/teachers/insert")
     public String getTeacherForm(Model model) {
@@ -50,14 +62,12 @@ public class TeacherController {
         try {
             savedTeacher = teacherService.saveTeacher(teacherInsertDTO);
             LOGGER.info("teacher with id {} inserted", savedTeacher.getId());
-            //return "success";
+//            return "success";
         } catch (EntityAlreadyExistsException | EntityInvalidArgumentException e) {
             LOGGER.error("teacher with vat {} not inserted", teacherInsertDTO.getVat());
             model.addAttribute("error", e.getMessage());
             return "teacher-form";
         }
-        //return "redirect:/teachers";
-
         TeacherReadOnlyDTO teacherReadOnlyDTO = mapper.mapToTeacherReadOnlyDTO(savedTeacher);
         model.addAttribute("teacher", teacherReadOnlyDTO);
         return "success";
