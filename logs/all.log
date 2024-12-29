@@ -1,0 +1,358 @@
+2024-12-29 12:56:47 INFO  - HV000001: Hibernate Validator 8.0.2.Final
+2024-12-29 12:56:47 INFO  - Starting TeacherApplication using Java 17.0.10 with PID 22094 (/Users/vasiliskr/1.JavaProjectsCodingFactory/spring-teacher/build/classes/java/main started by vasiliskr in /Users/vasiliskr/1.JavaProjectsCodingFactory/spring-teacher)
+2024-12-29 12:56:47 INFO  - The following 1 profile is active: "test"
+2024-12-29 12:56:48 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-29 12:56:49 INFO  - Finished Spring Data repository scanning in 79 ms. Found 3 JPA repository interfaces.
+2024-12-29 12:56:50 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-29 12:56:50 INFO  - Root WebApplicationContext: initialization completed in 3035 ms
+2024-12-29 12:56:50 INFO  - HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-29 12:56:50 INFO  - HHH000026: Second-level cache disabled
+2024-12-29 12:56:51 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-29 12:56:51 WARN  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-29 12:56:52 INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-29 12:56:53 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-29 12:56:53 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-29 12:56:54 INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-12-29 12:56:54 WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2024-12-29 12:56:54 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-29 12:56:54 INFO  - Adding welcome page template: index
+2024-12-29 12:56:54 WARN  - One of the patterns in [/, index.html] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2024-12-29 12:56:55 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-29 12:56:55 INFO  - Started TeacherApplication in 10.17 seconds (process running for 11.001)
+2024-12-29 12:57:07 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-29 12:57:07 INFO  - Completed initialization in 7 ms
+2024-12-29 12:57:07 WARN  - [THYMELEAF][http-nio-8080-exec-1][index] Deprecated unwrapped fragment expression "fragments/header :: headerFragment" found in template index, line 14, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/header :: headerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-12-29 12:57:07 WARN  - [THYMELEAF][http-nio-8080-exec-1][index] Deprecated unwrapped fragment expression "fragments/footer :: footerFragment" found in template index, line 22, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/footer :: footerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-12-29 13:01:11 INFO  - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-29 13:01:13 INFO  - Graceful shutdown complete
+2024-12-29 13:01:13 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-29 13:01:59 INFO  - HV000001: Hibernate Validator 8.0.2.Final
+2024-12-29 13:01:59 INFO  - Starting TeacherApplication using Java 17.0.10 with PID 22214 (/Users/vasiliskr/1.JavaProjectsCodingFactory/spring-teacher/build/classes/java/main started by vasiliskr in /Users/vasiliskr/1.JavaProjectsCodingFactory/spring-teacher)
+2024-12-29 13:01:59 INFO  - The following 1 profile is active: "test"
+2024-12-29 13:02:02 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-29 13:02:02 INFO  - Finished Spring Data repository scanning in 88 ms. Found 3 JPA repository interfaces.
+2024-12-29 13:02:03 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-29 13:02:03 INFO  - Root WebApplicationContext: initialization completed in 4236 ms
+2024-12-29 13:02:04 INFO  - HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-29 13:02:04 INFO  - HHH000026: Second-level cache disabled
+2024-12-29 13:02:04 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-29 13:02:05 WARN  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-29 13:02:05 INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-29 13:02:06 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-29 13:02:06 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-29 13:02:07 INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-12-29 13:02:07 WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2024-12-29 13:02:07 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-29 13:02:07 INFO  - Adding welcome page template: index
+2024-12-29 13:02:08 WARN  - One of the patterns in [/, index.html] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2024-12-29 13:02:08 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-29 13:02:08 INFO  - Started TeacherApplication in 10.734 seconds (process running for 11.716)
+2024-12-29 13:02:21 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-29 13:02:21 INFO  - Completed initialization in 9 ms
+2024-12-29 13:02:27 WARN  - [THYMELEAF][http-nio-8080-exec-6][index] Deprecated unwrapped fragment expression "fragments/header :: headerFragment" found in template index, line 14, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/header :: headerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-12-29 13:02:27 WARN  - [THYMELEAF][http-nio-8080-exec-6][index] Deprecated unwrapped fragment expression "fragments/footer :: footerFragment" found in template index, line 22, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/footer :: footerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-12-29 13:08:27 INFO  - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-29 13:08:29 INFO  - Graceful shutdown complete
+2024-12-29 13:08:29 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-29 13:08:38 INFO  - HV000001: Hibernate Validator 8.0.2.Final
+2024-12-29 13:08:38 INFO  - Starting TeacherApplication using Java 17.0.10 with PID 22313 (/Users/vasiliskr/1.JavaProjectsCodingFactory/spring-teacher/build/classes/java/main started by vasiliskr in /Users/vasiliskr/1.JavaProjectsCodingFactory/spring-teacher)
+2024-12-29 13:08:38 INFO  - The following 1 profile is active: "test"
+2024-12-29 13:08:39 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-29 13:08:39 INFO  - Finished Spring Data repository scanning in 75 ms. Found 3 JPA repository interfaces.
+2024-12-29 13:08:40 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-29 13:08:41 INFO  - Root WebApplicationContext: initialization completed in 2683 ms
+2024-12-29 13:08:41 INFO  - HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-29 13:08:41 INFO  - HHH000026: Second-level cache disabled
+2024-12-29 13:08:41 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-29 13:08:42 WARN  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-29 13:08:42 INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-29 13:08:43 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-29 13:08:43 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-29 13:08:44 INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-12-29 13:08:44 WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2024-12-29 13:08:44 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-29 13:08:44 INFO  - Adding welcome page template: index
+2024-12-29 13:08:45 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-29 13:08:45 INFO  - Started TeacherApplication in 8.328 seconds (process running for 8.998)
+2024-12-29 13:08:48 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-29 13:08:48 INFO  - Completed initialization in 34 ms
+2024-12-29 13:08:52 WARN  - [THYMELEAF][http-nio-8080-exec-5][index] Deprecated unwrapped fragment expression "fragments/header :: headerFragment" found in template index, line 14, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/header :: headerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-12-29 13:08:52 WARN  - [THYMELEAF][http-nio-8080-exec-5][index] Deprecated unwrapped fragment expression "fragments/footer :: footerFragment" found in template index, line 22, col 6. Please use the complete syntax of fragment expressions instead ("~{fragments/footer :: footerFragment}"). The old, unwrapped syntax for fragment expressions will be removed in future versions of Thymeleaf.
+2024-12-29 13:14:13 INFO  - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-29 13:14:15 INFO  - Graceful shutdown complete
+2024-12-29 13:14:15 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-29 13:14:21 INFO  - HV000001: Hibernate Validator 8.0.2.Final
+2024-12-29 13:14:21 INFO  - Starting TeacherApplication using Java 17.0.10 with PID 22446 (/Users/vasiliskr/1.JavaProjectsCodingFactory/spring-teacher/build/classes/java/main started by vasiliskr in /Users/vasiliskr/1.JavaProjectsCodingFactory/spring-teacher)
+2024-12-29 13:14:21 INFO  - The following 1 profile is active: "test"
+2024-12-29 13:14:23 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-29 13:14:23 INFO  - Finished Spring Data repository scanning in 72 ms. Found 3 JPA repository interfaces.
+2024-12-29 13:14:24 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-29 13:14:24 INFO  - Root WebApplicationContext: initialization completed in 2931 ms
+2024-12-29 13:14:25 INFO  - HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-29 13:14:25 INFO  - HHH000026: Second-level cache disabled
+2024-12-29 13:14:25 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-29 13:14:26 WARN  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-29 13:14:26 INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-29 13:14:27 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-29 13:14:27 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-29 13:14:28 INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-12-29 13:14:28 WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2024-12-29 13:14:28 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-29 13:14:28 INFO  - Adding welcome page template: index
+2024-12-29 13:14:29 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-29 13:14:29 INFO  - Started TeacherApplication in 8.745 seconds (process running for 9.689)
+2024-12-29 13:14:34 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-29 13:14:34 INFO  - Completed initialization in 2 ms
+2024-12-29 13:16:03 INFO  - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-29 13:16:05 INFO  - Graceful shutdown complete
+2024-12-29 13:16:05 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-29 13:16:11 INFO  - HV000001: Hibernate Validator 8.0.2.Final
+2024-12-29 13:16:12 INFO  - Starting TeacherApplication using Java 17.0.10 with PID 22492 (/Users/vasiliskr/1.JavaProjectsCodingFactory/spring-teacher/build/classes/java/main started by vasiliskr in /Users/vasiliskr/1.JavaProjectsCodingFactory/spring-teacher)
+2024-12-29 13:16:12 INFO  - The following 1 profile is active: "test"
+2024-12-29 13:16:13 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-29 13:16:13 INFO  - Finished Spring Data repository scanning in 78 ms. Found 3 JPA repository interfaces.
+2024-12-29 13:16:15 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-29 13:16:15 INFO  - Root WebApplicationContext: initialization completed in 2819 ms
+2024-12-29 13:16:15 INFO  - HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-29 13:16:15 INFO  - HHH000026: Second-level cache disabled
+2024-12-29 13:16:15 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-29 13:16:16 WARN  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-29 13:16:16 INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-29 13:16:17 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-29 13:16:17 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-29 13:16:18 INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-12-29 13:16:18 WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2024-12-29 13:16:18 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-29 13:16:18 INFO  - Adding welcome page template: index
+2024-12-29 13:16:19 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-29 13:16:19 INFO  - Started TeacherApplication in 9.084 seconds (process running for 9.759)
+2024-12-29 13:20:14 INFO  - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-29 13:20:16 INFO  - Graceful shutdown complete
+2024-12-29 13:20:16 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-29 13:20:26 INFO  - HV000001: Hibernate Validator 8.0.2.Final
+2024-12-29 13:20:27 INFO  - Starting TeacherApplication using Java 17.0.10 with PID 22568 (/Users/vasiliskr/1.JavaProjectsCodingFactory/spring-teacher/build/classes/java/main started by vasiliskr in /Users/vasiliskr/1.JavaProjectsCodingFactory/spring-teacher)
+2024-12-29 13:20:27 INFO  - The following 1 profile is active: "test"
+2024-12-29 13:20:28 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-29 13:20:28 INFO  - Finished Spring Data repository scanning in 73 ms. Found 3 JPA repository interfaces.
+2024-12-29 13:20:29 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-29 13:20:29 INFO  - Root WebApplicationContext: initialization completed in 2683 ms
+2024-12-29 13:20:30 INFO  - HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-29 13:20:30 INFO  - HHH000026: Second-level cache disabled
+2024-12-29 13:20:30 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-29 13:20:31 WARN  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-29 13:20:31 INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-29 13:20:32 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-29 13:20:32 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-29 13:20:33 INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-12-29 13:20:33 WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2024-12-29 13:20:33 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-29 13:20:33 INFO  - Adding welcome page template: index
+2024-12-29 13:20:34 WARN  - One of the patterns in [school/users/register] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2024-12-29 13:20:35 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-29 13:20:35 INFO  - Started TeacherApplication in 9.66 seconds (process running for 10.385)
+2024-12-29 13:20:43 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-29 13:20:43 INFO  - Completed initialization in 5 ms
+2024-12-29 13:32:29 INFO  - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-29 13:32:32 INFO  - Graceful shutdown complete
+2024-12-29 13:32:32 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-29 13:33:21 INFO  - HV000001: Hibernate Validator 8.0.2.Final
+2024-12-29 13:33:21 INFO  - Starting TeacherApplication using Java 17.0.10 with PID 22668 (/Users/vasiliskr/1.JavaProjectsCodingFactory/spring-teacher/build/classes/java/main started by vasiliskr in /Users/vasiliskr/1.JavaProjectsCodingFactory/spring-teacher)
+2024-12-29 13:33:21 INFO  - The following 1 profile is active: "test"
+2024-12-29 13:33:22 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-29 13:33:22 INFO  - Finished Spring Data repository scanning in 162 ms. Found 3 JPA repository interfaces.
+2024-12-29 13:33:23 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-29 13:33:24 INFO  - Root WebApplicationContext: initialization completed in 2729 ms
+2024-12-29 13:33:24 INFO  - HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-29 13:33:24 INFO  - HHH000026: Second-level cache disabled
+2024-12-29 13:33:24 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-29 13:33:25 WARN  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-29 13:33:25 INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-29 13:33:26 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-29 13:33:26 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-29 13:33:27 INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-12-29 13:33:27 WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2024-12-29 13:33:27 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-29 13:33:27 INFO  - Adding welcome page template: index
+2024-12-29 13:33:27 WARN  - One of the patterns in [/, index.html] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2024-12-29 13:33:28 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-29 13:33:28 INFO  - Started TeacherApplication in 8.215 seconds (process running for 8.884)
+2024-12-29 13:36:14 INFO  - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-29 13:36:16 INFO  - Graceful shutdown complete
+2024-12-29 13:36:16 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-29 13:36:23 INFO  - HV000001: Hibernate Validator 8.0.2.Final
+2024-12-29 13:36:23 INFO  - Starting TeacherApplication using Java 17.0.10 with PID 22710 (/Users/vasiliskr/1.JavaProjectsCodingFactory/spring-teacher/build/classes/java/main started by vasiliskr in /Users/vasiliskr/1.JavaProjectsCodingFactory/spring-teacher)
+2024-12-29 13:36:23 INFO  - The following 1 profile is active: "test"
+2024-12-29 13:36:24 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-29 13:36:24 INFO  - Finished Spring Data repository scanning in 74 ms. Found 3 JPA repository interfaces.
+2024-12-29 13:36:25 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-29 13:36:26 INFO  - Root WebApplicationContext: initialization completed in 2619 ms
+2024-12-29 13:36:26 INFO  - HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-29 13:36:26 INFO  - HHH000026: Second-level cache disabled
+2024-12-29 13:36:26 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-29 13:36:27 WARN  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-29 13:36:27 INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-29 13:36:28 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-29 13:36:28 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-29 13:36:29 INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-12-29 13:36:29 WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2024-12-29 13:36:29 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-29 13:36:29 INFO  - Adding welcome page template: index
+2024-12-29 13:36:30 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-29 13:36:30 INFO  - Started TeacherApplication in 7.955 seconds (process running for 8.609)
+2024-12-29 13:37:14 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-29 13:37:14 INFO  - Completed initialization in 5 ms
+2024-12-29 13:43:14 INFO  - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-29 13:43:16 INFO  - Graceful shutdown complete
+2024-12-29 13:43:16 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-29 13:43:22 INFO  - HV000001: Hibernate Validator 8.0.2.Final
+2024-12-29 13:43:22 INFO  - Starting TeacherApplication using Java 17.0.10 with PID 22944 (/Users/vasiliskr/1.JavaProjectsCodingFactory/spring-teacher/build/classes/java/main started by vasiliskr in /Users/vasiliskr/1.JavaProjectsCodingFactory/spring-teacher)
+2024-12-29 13:43:22 INFO  - The following 1 profile is active: "test"
+2024-12-29 13:43:25 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-29 13:43:25 INFO  - Finished Spring Data repository scanning in 335 ms. Found 3 JPA repository interfaces.
+2024-12-29 13:43:27 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-29 13:43:28 INFO  - Root WebApplicationContext: initialization completed in 5164 ms
+2024-12-29 13:43:28 INFO  - HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-29 13:43:28 INFO  - HHH000026: Second-level cache disabled
+2024-12-29 13:43:28 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-29 13:43:29 WARN  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-29 13:43:29 INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-29 13:43:31 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-29 13:43:31 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-29 13:43:31 INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-12-29 13:43:31 WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2024-12-29 13:43:31 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-29 13:43:32 INFO  - Adding welcome page template: index
+2024-12-29 13:43:32 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-29 13:43:32 INFO  - Started TeacherApplication in 11.471 seconds (process running for 12.517)
+2024-12-29 13:43:34 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-29 13:43:34 INFO  - Completed initialization in 2 ms
+2024-12-29 13:45:50 INFO  - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-29 13:45:52 INFO  - Graceful shutdown complete
+2024-12-29 13:45:52 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-29 13:45:59 INFO  - HV000001: Hibernate Validator 8.0.2.Final
+2024-12-29 13:45:59 INFO  - Starting TeacherApplication using Java 17.0.10 with PID 23025 (/Users/vasiliskr/1.JavaProjectsCodingFactory/spring-teacher/build/classes/java/main started by vasiliskr in /Users/vasiliskr/1.JavaProjectsCodingFactory/spring-teacher)
+2024-12-29 13:45:59 INFO  - The following 1 profile is active: "test"
+2024-12-29 13:46:01 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-29 13:46:01 INFO  - Finished Spring Data repository scanning in 75 ms. Found 3 JPA repository interfaces.
+2024-12-29 13:46:02 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-29 13:46:02 INFO  - Root WebApplicationContext: initialization completed in 2744 ms
+2024-12-29 13:46:02 INFO  - HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-29 13:46:02 INFO  - HHH000026: Second-level cache disabled
+2024-12-29 13:46:03 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-29 13:46:04 WARN  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-29 13:46:04 INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-29 13:46:06 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-29 13:46:06 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-29 13:46:06 INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-12-29 13:46:06 WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2024-12-29 13:46:07 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-29 13:46:07 INFO  - Adding welcome page template: index
+2024-12-29 13:46:08 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-29 13:46:08 INFO  - Started TeacherApplication in 9.517 seconds (process running for 10.523)
+2024-12-29 13:46:11 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-29 13:46:11 INFO  - Completed initialization in 8 ms
+2024-12-29 13:48:10 INFO  - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-29 13:48:12 INFO  - Graceful shutdown complete
+2024-12-29 13:48:13 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-29 13:48:24 INFO  - HV000001: Hibernate Validator 8.0.2.Final
+2024-12-29 13:48:24 INFO  - Starting TeacherApplication using Java 17.0.10 with PID 23089 (/Users/vasiliskr/1.JavaProjectsCodingFactory/spring-teacher/build/classes/java/main started by vasiliskr in /Users/vasiliskr/1.JavaProjectsCodingFactory/spring-teacher)
+2024-12-29 13:48:24 INFO  - The following 1 profile is active: "test"
+2024-12-29 13:48:25 INFO  - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-29 13:48:26 INFO  - Finished Spring Data repository scanning in 73 ms. Found 3 JPA repository interfaces.
+2024-12-29 13:48:27 INFO  - Tomcat initialized with port 8080 (http)
+2024-12-29 13:48:27 INFO  - Root WebApplicationContext: initialization completed in 2988 ms
+2024-12-29 13:48:27 INFO  - HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-29 13:48:27 INFO  - HHH000026: Second-level cache disabled
+2024-12-29 13:48:28 INFO  - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-29 13:48:28 WARN  - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-29 13:48:28 INFO  - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.39
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-29 13:48:30 INFO  - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-29 13:48:30 INFO  - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-29 13:48:30 INFO  - Global AuthenticationManager configured with AuthenticationProvider bean with name authenticationProvider
+2024-12-29 13:48:30 WARN  - Global AuthenticationManager configured with an AuthenticationProvider bean. UserDetailsService beans will not be used by Spring Security for automatically configuring username/password login. Consider removing the AuthenticationProvider bean. Alternatively, consider using the UserDetailsService in a manually instantiated DaoAuthenticationProvider. If the current configuration is intentional, to turn off this warning, increase the logging level of 'org.springframework.security.config.annotation.authentication.configuration.InitializeUserDetailsBeanManagerConfigurer' to ERROR
+2024-12-29 13:48:30 WARN  - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-29 13:48:31 INFO  - Adding welcome page template: index
+2024-12-29 13:48:31 INFO  - Tomcat started on port 8080 (http) with context path '/'
+2024-12-29 13:48:31 INFO  - Started TeacherApplication in 9.007 seconds (process running for 9.787)
+2024-12-29 13:48:34 INFO  - Initializing Servlet 'dispatcherServlet'
+2024-12-29 13:48:34 INFO  - Completed initialization in 5 ms
+2024-12-29 13:48:58 INFO  - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-29 13:49:00 INFO  - Graceful shutdown complete
+2024-12-29 13:49:00 INFO  - Closing JPA EntityManagerFactory for persistence unit 'default'

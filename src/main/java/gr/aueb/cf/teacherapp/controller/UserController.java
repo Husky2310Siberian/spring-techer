@@ -22,13 +22,13 @@ public class UserController {
     private final UserService userService;
     private final Mapper mapper;
 
-    @GetMapping("/users/teacher")
+    @GetMapping("/users/register")
     public String getUserForm(Model model) {
         model.addAttribute("userInsertDTO", new UserInsertDTO());
         return "user-form";
     }
 
-    @PostMapping("/users/teacher")
+    @PostMapping("/users/register")
     public String insertUser(@Valid @ModelAttribute("userInsertDTO") UserInsertDTO userInsertDTO,
                              BindingResult bindingResult,
                              Model model){

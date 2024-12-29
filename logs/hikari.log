@@ -1,0 +1,993 @@
+2024-12-29 12:56:50 DEBUG com.zaxxer.hikari.HikariConfig - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@67424e82
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:mysql://localhost:3306/springteacherdb?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=Europe/Athens
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - username........................"springuser"
+2024-12-29 12:56:51 DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+2024-12-29 12:56:51 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-29 12:56:51 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e951fb1
+2024-12-29 12:56:51 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-29 12:56:52 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2024-12-29 12:56:52 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@602518d7
+2024-12-29 12:56:52 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2024-12-29 12:56:52 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@518fbaf7
+2024-12-29 12:56:52 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-12-29 12:56:52 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ae798
+2024-12-29 12:56:52 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-12-29 12:56:52 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4449b3b
+2024-12-29 12:56:52 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-12-29 12:56:52 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a53b29a
+2024-12-29 12:56:52 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-12-29 12:56:52 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55334179
+2024-12-29 12:56:52 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-12-29 12:56:52 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16ab0b9b
+2024-12-29 12:56:52 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-12-29 12:56:52 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58de287a
+2024-12-29 12:56:52 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-12-29 12:56:52 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a3250ba
+2024-12-29 12:56:52 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 12:56:52 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection not added, stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 12:57:21 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 12:57:21 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 12:57:51 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 12:57:51 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 12:58:21 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 12:58:21 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 12:58:51 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 12:58:51 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 12:59:22 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 12:59:22 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 12:59:52 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 12:59:52 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:00:22 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:00:22 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:00:52 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:00:52 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:01:13 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-29 13:01:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:01:13 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4e951fb1: (connection evicted)
+2024-12-29 13:01:14 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@602518d7: (connection evicted)
+2024-12-29 13:01:14 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@518fbaf7: (connection evicted)
+2024-12-29 13:01:14 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@ae798: (connection evicted)
+2024-12-29 13:01:14 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4449b3b: (connection evicted)
+2024-12-29 13:01:14 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@a53b29a: (connection evicted)
+2024-12-29 13:01:14 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@55334179: (connection evicted)
+2024-12-29 13:01:14 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@16ab0b9b: (connection evicted)
+2024-12-29 13:01:14 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@58de287a: (connection evicted)
+2024-12-29 13:01:14 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4a3250ba: (connection evicted)
+2024-12-29 13:01:14 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-12-29 13:01:14 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@67424e82
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:mysql://localhost:3306/springteacherdb?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=Europe/Athens
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - username........................"springuser"
+2024-12-29 13:02:04 DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+2024-12-29 13:02:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-29 13:02:05 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68479e8b
+2024-12-29 13:02:05 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-29 13:02:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2024-12-29 13:02:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@185cf6a0
+2024-12-29 13:02:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2024-12-29 13:02:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@298e4d00
+2024-12-29 13:02:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-12-29 13:02:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@787309ef
+2024-12-29 13:02:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-12-29 13:02:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c3d1535
+2024-12-29 13:02:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-12-29 13:02:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a047d0d
+2024-12-29 13:02:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-12-29 13:02:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48aa8d94
+2024-12-29 13:02:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-12-29 13:02:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2592f252
+2024-12-29 13:02:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-12-29 13:02:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3017293e
+2024-12-29 13:02:06 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-12-29 13:02:06 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76d0960a
+2024-12-29 13:02:06 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:02:35 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:02:35 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:03:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:03:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:03:35 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:03:35 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:04:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:04:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:04:35 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:04:35 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:05:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:05:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:05:35 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:05:35 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:06:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:06:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:06:35 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:06:35 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:07:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:07:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:07:35 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:07:35 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:08:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:08:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:08:29 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-29 13:08:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:08:29 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@68479e8b: (connection evicted)
+2024-12-29 13:08:29 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@185cf6a0: (connection evicted)
+2024-12-29 13:08:29 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@298e4d00: (connection evicted)
+2024-12-29 13:08:29 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@787309ef: (connection evicted)
+2024-12-29 13:08:29 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7c3d1535: (connection evicted)
+2024-12-29 13:08:29 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4a047d0d: (connection evicted)
+2024-12-29 13:08:29 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@48aa8d94: (connection evicted)
+2024-12-29 13:08:29 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2592f252: (connection evicted)
+2024-12-29 13:08:29 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3017293e: (connection evicted)
+2024-12-29 13:08:29 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@76d0960a: (connection evicted)
+2024-12-29 13:08:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-12-29 13:08:29 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@67424e82
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:mysql://localhost:3306/springteacherdb?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=Europe/Athens
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - username........................"springuser"
+2024-12-29 13:08:41 DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+2024-12-29 13:08:41 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-29 13:08:42 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b974137
+2024-12-29 13:08:42 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-29 13:08:42 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2024-12-29 13:08:42 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79104a93
+2024-12-29 13:08:42 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2024-12-29 13:08:42 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48a3d4c7
+2024-12-29 13:08:42 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-12-29 13:08:42 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@193fb5dc
+2024-12-29 13:08:42 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-12-29 13:08:42 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1d71c842
+2024-12-29 13:08:42 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-12-29 13:08:42 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54ee6dc3
+2024-12-29 13:08:42 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-12-29 13:08:42 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e8ccdc1
+2024-12-29 13:08:42 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-12-29 13:08:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5628611a
+2024-12-29 13:08:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-12-29 13:08:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@424d8f38
+2024-12-29 13:08:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-12-29 13:08:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5aaeb6c6
+2024-12-29 13:08:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:08:43 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection not added, stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:09:12 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:09:12 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:09:42 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:09:42 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:10:12 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:10:12 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:10:42 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:10:42 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:11:12 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:11:12 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:11:42 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:11:42 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:12:12 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:12:12 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:12:42 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:12:42 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:13:12 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:13:12 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:13:42 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:13:42 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:14:12 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:14:12 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:14:15 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-29 13:14:15 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:14:15 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2b974137: (connection evicted)
+2024-12-29 13:14:15 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@79104a93: (connection evicted)
+2024-12-29 13:14:15 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@48a3d4c7: (connection evicted)
+2024-12-29 13:14:15 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@193fb5dc: (connection evicted)
+2024-12-29 13:14:15 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1d71c842: (connection evicted)
+2024-12-29 13:14:15 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@54ee6dc3: (connection evicted)
+2024-12-29 13:14:15 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1e8ccdc1: (connection evicted)
+2024-12-29 13:14:15 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5628611a: (connection evicted)
+2024-12-29 13:14:15 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@424d8f38: (connection evicted)
+2024-12-29 13:14:15 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5aaeb6c6: (connection evicted)
+2024-12-29 13:14:15 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-12-29 13:14:15 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-29 13:14:24 DEBUG com.zaxxer.hikari.HikariConfig - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@67424e82
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:mysql://localhost:3306/springteacherdb?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=Europe/Athens
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - username........................"springuser"
+2024-12-29 13:14:25 DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+2024-12-29 13:14:25 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-29 13:14:26 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e52d2f2
+2024-12-29 13:14:26 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-29 13:14:26 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2024-12-29 13:14:26 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68f9a9d1
+2024-12-29 13:14:26 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2024-12-29 13:14:26 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@59db4795
+2024-12-29 13:14:26 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-12-29 13:14:26 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8d6569e
+2024-12-29 13:14:26 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-12-29 13:14:26 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@c98aaf1
+2024-12-29 13:14:26 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-12-29 13:14:26 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f222e69
+2024-12-29 13:14:26 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-12-29 13:14:26 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5391a5fd
+2024-12-29 13:14:26 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-12-29 13:14:26 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7eb8d197
+2024-12-29 13:14:26 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-12-29 13:14:26 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3451fd
+2024-12-29 13:14:26 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-12-29 13:14:26 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@47e44e94
+2024-12-29 13:14:26 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:14:26 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection not added, stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:14:56 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:14:56 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:15:26 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:15:26 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:15:56 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:15:56 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:16:05 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-29 13:16:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:16:05 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4e52d2f2: (connection evicted)
+2024-12-29 13:16:05 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@68f9a9d1: (connection evicted)
+2024-12-29 13:16:05 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@59db4795: (connection evicted)
+2024-12-29 13:16:05 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@8d6569e: (connection evicted)
+2024-12-29 13:16:05 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@c98aaf1: (connection evicted)
+2024-12-29 13:16:05 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2f222e69: (connection evicted)
+2024-12-29 13:16:05 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5391a5fd: (connection evicted)
+2024-12-29 13:16:05 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7eb8d197: (connection evicted)
+2024-12-29 13:16:05 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3451fd: (connection evicted)
+2024-12-29 13:16:05 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@47e44e94: (connection evicted)
+2024-12-29 13:16:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-12-29 13:16:05 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-29 13:16:15 DEBUG com.zaxxer.hikari.HikariConfig - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@67424e82
+2024-12-29 13:16:15 DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+2024-12-29 13:16:15 DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+2024-12-29 13:16:15 DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+2024-12-29 13:16:15 DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+2024-12-29 13:16:15 DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+2024-12-29 13:16:15 DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+2024-12-29 13:16:15 DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+2024-12-29 13:16:15 DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+2024-12-29 13:16:15 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+2024-12-29 13:16:15 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+2024-12-29 13:16:15 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+2024-12-29 13:16:15 DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-12-29 13:16:15 DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+2024-12-29 13:16:15 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+2024-12-29 13:16:15 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+2024-12-29 13:16:15 DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+2024-12-29 13:16:15 DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+2024-12-29 13:16:15 DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+2024-12-29 13:16:15 DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:mysql://localhost:3306/springteacherdb?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=Europe/Athens
+2024-12-29 13:16:16 DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+2024-12-29 13:16:16 DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+2024-12-29 13:16:16 DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+2024-12-29 13:16:16 DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+2024-12-29 13:16:16 DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+2024-12-29 13:16:16 DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+2024-12-29 13:16:16 DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+2024-12-29 13:16:16 DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+2024-12-29 13:16:16 DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+2024-12-29 13:16:16 DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+2024-12-29 13:16:16 DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+2024-12-29 13:16:16 DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+2024-12-29 13:16:16 DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+2024-12-29 13:16:16 DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+2024-12-29 13:16:16 DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+2024-12-29 13:16:16 DEBUG com.zaxxer.hikari.HikariConfig - username........................"springuser"
+2024-12-29 13:16:16 DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+2024-12-29 13:16:16 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-29 13:16:16 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@68479e8b
+2024-12-29 13:16:16 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-29 13:16:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2024-12-29 13:16:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@185cf6a0
+2024-12-29 13:16:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2024-12-29 13:16:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@298e4d00
+2024-12-29 13:16:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-12-29 13:16:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@787309ef
+2024-12-29 13:16:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-12-29 13:16:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c3d1535
+2024-12-29 13:16:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-12-29 13:16:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a047d0d
+2024-12-29 13:16:17 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-12-29 13:16:17 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@48aa8d94
+2024-12-29 13:16:17 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-12-29 13:16:17 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2592f252
+2024-12-29 13:16:17 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-12-29 13:16:17 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3017293e
+2024-12-29 13:16:17 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-12-29 13:16:17 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@76d0960a
+2024-12-29 13:16:17 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:16:46 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:16:46 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:17:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:17:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:17:46 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:17:46 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:18:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:18:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:18:46 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:18:46 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:19:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:19:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:19:46 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:19:46 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:20:16 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-29 13:20:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:20:16 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@68479e8b: (connection evicted)
+2024-12-29 13:20:16 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@185cf6a0: (connection evicted)
+2024-12-29 13:20:16 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@298e4d00: (connection evicted)
+2024-12-29 13:20:16 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@787309ef: (connection evicted)
+2024-12-29 13:20:16 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7c3d1535: (connection evicted)
+2024-12-29 13:20:16 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4a047d0d: (connection evicted)
+2024-12-29 13:20:16 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@48aa8d94: (connection evicted)
+2024-12-29 13:20:16 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2592f252: (connection evicted)
+2024-12-29 13:20:16 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3017293e: (connection evicted)
+2024-12-29 13:20:16 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@76d0960a: (connection evicted)
+2024-12-29 13:20:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-12-29 13:20:16 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@67424e82
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:mysql://localhost:3306/springteacherdb?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=Europe/Athens
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - username........................"springuser"
+2024-12-29 13:20:30 DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+2024-12-29 13:20:30 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-29 13:20:31 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@50fd739d
+2024-12-29 13:20:31 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-29 13:20:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2024-12-29 13:20:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f127c6e
+2024-12-29 13:20:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2024-12-29 13:20:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e672616
+2024-12-29 13:20:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-12-29 13:20:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5f3d8321
+2024-12-29 13:20:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-12-29 13:20:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5b7338bd
+2024-12-29 13:20:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-12-29 13:20:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6a81bf5d
+2024-12-29 13:20:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-12-29 13:20:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@640d26f6
+2024-12-29 13:20:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-12-29 13:20:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6fba5856
+2024-12-29 13:20:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-12-29 13:20:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e3ad600
+2024-12-29 13:20:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-12-29 13:20:32 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@8c87825
+2024-12-29 13:20:32 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:21:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:21:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:21:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:21:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:22:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:22:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:22:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:22:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:23:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:23:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:23:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:23:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:24:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:24:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:24:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:24:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:25:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:25:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:25:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:25:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:26:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:26:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:26:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:26:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:27:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:27:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:27:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:27:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:28:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:28:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:28:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:28:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:29:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:29:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:29:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:29:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:30:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:30:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:30:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:30:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:31:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:31:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:31:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:31:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:32:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:32:01 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:32:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:32:31 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:32:32 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-29 13:32:32 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:32:32 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@50fd739d: (connection evicted)
+2024-12-29 13:32:32 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3f127c6e: (connection evicted)
+2024-12-29 13:32:32 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@e672616: (connection evicted)
+2024-12-29 13:32:32 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5f3d8321: (connection evicted)
+2024-12-29 13:32:32 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5b7338bd: (connection evicted)
+2024-12-29 13:32:32 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6a81bf5d: (connection evicted)
+2024-12-29 13:32:32 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@640d26f6: (connection evicted)
+2024-12-29 13:32:32 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6fba5856: (connection evicted)
+2024-12-29 13:32:32 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@e3ad600: (connection evicted)
+2024-12-29 13:32:32 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@8c87825: (connection evicted)
+2024-12-29 13:32:32 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-12-29 13:32:32 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@67424e82
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:mysql://localhost:3306/springteacherdb?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=Europe/Athens
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - username........................"springuser"
+2024-12-29 13:33:24 DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+2024-12-29 13:33:24 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-29 13:33:25 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a67f8b4
+2024-12-29 13:33:25 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-29 13:33:25 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2024-12-29 13:33:25 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@229680e
+2024-12-29 13:33:25 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2024-12-29 13:33:25 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@33612c46
+2024-12-29 13:33:25 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-12-29 13:33:25 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@62069741
+2024-12-29 13:33:25 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-12-29 13:33:25 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@664809e6
+2024-12-29 13:33:25 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-12-29 13:33:25 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14efb333
+2024-12-29 13:33:25 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-12-29 13:33:25 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13ac8620
+2024-12-29 13:33:25 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-12-29 13:33:25 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d81ac56
+2024-12-29 13:33:26 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-12-29 13:33:26 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72cc8d64
+2024-12-29 13:33:26 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-12-29 13:33:26 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@611cd580
+2024-12-29 13:33:26 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:33:55 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:33:55 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:34:25 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:34:25 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:34:55 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:34:55 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:35:25 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:35:25 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:35:55 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:35:55 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:36:16 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-29 13:36:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:36:16 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1a67f8b4: (connection evicted)
+2024-12-29 13:36:16 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@229680e: (connection evicted)
+2024-12-29 13:36:16 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@33612c46: (connection evicted)
+2024-12-29 13:36:16 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@62069741: (connection evicted)
+2024-12-29 13:36:16 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@664809e6: (connection evicted)
+2024-12-29 13:36:16 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@14efb333: (connection evicted)
+2024-12-29 13:36:16 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@13ac8620: (connection evicted)
+2024-12-29 13:36:16 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5d81ac56: (connection evicted)
+2024-12-29 13:36:16 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@72cc8d64: (connection evicted)
+2024-12-29 13:36:16 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@611cd580: (connection evicted)
+2024-12-29 13:36:16 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-12-29 13:36:16 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@67424e82
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:mysql://localhost:3306/springteacherdb?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=Europe/Athens
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - username........................"springuser"
+2024-12-29 13:36:26 DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+2024-12-29 13:36:26 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-29 13:36:27 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f70e244
+2024-12-29 13:36:27 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-29 13:36:27 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=0, idle=1, waiting=0)
+2024-12-29 13:36:27 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ac829a1
+2024-12-29 13:36:27 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2024-12-29 13:36:27 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b98944a
+2024-12-29 13:36:27 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-12-29 13:36:27 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ae7d6ee
+2024-12-29 13:36:27 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-12-29 13:36:27 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ea948b0
+2024-12-29 13:36:27 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-12-29 13:36:27 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3e77d9ce
+2024-12-29 13:36:27 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-12-29 13:36:27 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d88d6bc
+2024-12-29 13:36:27 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-12-29 13:36:27 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e3909e0
+2024-12-29 13:36:27 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-12-29 13:36:27 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6bdebfd3
+2024-12-29 13:36:28 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-12-29 13:36:28 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23323306
+2024-12-29 13:36:28 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:36:57 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:36:57 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:37:27 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:37:27 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:37:57 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:37:57 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:38:27 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:38:27 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:38:57 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:38:57 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:39:27 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:39:27 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:39:57 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:39:57 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:40:27 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:40:27 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:40:57 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:40:57 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:41:27 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:41:27 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:41:57 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:41:57 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:42:27 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:42:27 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:42:57 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:42:57 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:43:17 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-29 13:43:17 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:43:17 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7f70e244: (connection evicted)
+2024-12-29 13:43:17 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1ac829a1: (connection evicted)
+2024-12-29 13:43:17 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@2b98944a: (connection evicted)
+2024-12-29 13:43:17 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7ae7d6ee: (connection evicted)
+2024-12-29 13:43:17 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7ea948b0: (connection evicted)
+2024-12-29 13:43:17 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3e77d9ce: (connection evicted)
+2024-12-29 13:43:17 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5d88d6bc: (connection evicted)
+2024-12-29 13:43:17 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@1e3909e0: (connection evicted)
+2024-12-29 13:43:17 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6bdebfd3: (connection evicted)
+2024-12-29 13:43:17 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@23323306: (connection evicted)
+2024-12-29 13:43:17 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-12-29 13:43:17 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@67424e82
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:mysql://localhost:3306/springteacherdb?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=Europe/Athens
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - username........................"springuser"
+2024-12-29 13:43:28 DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+2024-12-29 13:43:28 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-29 13:43:29 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@71734463
+2024-12-29 13:43:29 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-29 13:43:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2024-12-29 13:43:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54247585
+2024-12-29 13:43:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2024-12-29 13:43:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@65bae2cf
+2024-12-29 13:43:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-12-29 13:43:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@340b8aca
+2024-12-29 13:43:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-12-29 13:43:30 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3045d278
+2024-12-29 13:43:30 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-12-29 13:43:30 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@73a1ab75
+2024-12-29 13:43:30 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-12-29 13:43:30 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@37b0194c
+2024-12-29 13:43:30 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-12-29 13:43:30 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@db7e8f8
+2024-12-29 13:43:30 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-12-29 13:43:30 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55ad5e2e
+2024-12-29 13:43:30 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-12-29 13:43:30 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@cc808ad
+2024-12-29 13:43:30 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:43:30 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection not added, stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:43:59 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:43:59 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:44:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:44:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:44:59 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:44:59 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:45:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:45:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:45:52 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-29 13:45:52 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:45:52 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@71734463: (connection evicted)
+2024-12-29 13:45:52 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@54247585: (connection evicted)
+2024-12-29 13:45:52 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@65bae2cf: (connection evicted)
+2024-12-29 13:45:52 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@340b8aca: (connection evicted)
+2024-12-29 13:45:52 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@3045d278: (connection evicted)
+2024-12-29 13:45:52 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@73a1ab75: (connection evicted)
+2024-12-29 13:45:52 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@37b0194c: (connection evicted)
+2024-12-29 13:45:52 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@db7e8f8: (connection evicted)
+2024-12-29 13:45:52 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@55ad5e2e: (connection evicted)
+2024-12-29 13:45:52 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@cc808ad: (connection evicted)
+2024-12-29 13:45:52 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-12-29 13:45:52 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-29 13:46:02 DEBUG com.zaxxer.hikari.HikariConfig - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@67424e82
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:mysql://localhost:3306/springteacherdb?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=Europe/Athens
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - username........................"springuser"
+2024-12-29 13:46:03 DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+2024-12-29 13:46:03 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-29 13:46:04 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@749ad37c
+2024-12-29 13:46:04 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-29 13:46:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2024-12-29 13:46:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d5f15bd
+2024-12-29 13:46:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2024-12-29 13:46:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5cf8d8f3
+2024-12-29 13:46:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-12-29 13:46:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d70eaf2
+2024-12-29 13:46:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-12-29 13:46:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@93e933b
+2024-12-29 13:46:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-12-29 13:46:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38e931aa
+2024-12-29 13:46:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-12-29 13:46:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@584bed72
+2024-12-29 13:46:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-12-29 13:46:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a36fdfa
+2024-12-29 13:46:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-12-29 13:46:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@50800c72
+2024-12-29 13:46:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-12-29 13:46:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@969423e
+2024-12-29 13:46:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:46:05 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection not added, stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:46:34 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:46:34 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:47:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:47:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:47:34 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:47:34 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:48:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:48:04 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:48:13 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-29 13:48:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:48:13 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@749ad37c: (connection evicted)
+2024-12-29 13:48:13 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@6d5f15bd: (connection evicted)
+2024-12-29 13:48:13 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@5cf8d8f3: (connection evicted)
+2024-12-29 13:48:13 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@d70eaf2: (connection evicted)
+2024-12-29 13:48:13 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@93e933b: (connection evicted)
+2024-12-29 13:48:13 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@38e931aa: (connection evicted)
+2024-12-29 13:48:13 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@584bed72: (connection evicted)
+2024-12-29 13:48:13 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7a36fdfa: (connection evicted)
+2024-12-29 13:48:13 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@50800c72: (connection evicted)
+2024-12-29 13:48:13 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@969423e: (connection evicted)
+2024-12-29 13:48:13 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-12-29 13:48:13 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2024-12-29 13:48:27 DEBUG com.zaxxer.hikari.HikariConfig - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@67424e82
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - HikariPool-1 - configuration:
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - allowPoolSuspension.............false
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - autoCommit......................true
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - catalog.........................none
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - connectionInitSql...............none
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - connectionTestQuery.............none
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - connectionTimeout...............30000
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - dataSource......................none
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceClassName.............none
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceJNDI..................none
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - dataSourceProperties............{password=<masked>}
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - driverClassName................."com.mysql.cj.jdbc.Driver"
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - exceptionOverrideClassName......none
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckProperties...........{}
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - healthCheckRegistry.............none
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - idleTimeout.....................600000
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - initializationFailTimeout.......1
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - isolateInternalQueries..........false
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - jdbcUrl.........................jdbc:mysql://localhost:3306/springteacherdb?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=Europe/Athens
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - keepaliveTime...................0
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - leakDetectionThreshold..........0
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - maxLifetime.....................1800000
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - maximumPoolSize.................10
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - metricRegistry..................none
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - metricsTrackerFactory...........none
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - minimumIdle.....................10
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - password........................<masked>
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - poolName........................"HikariPool-1"
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - readOnly........................false
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - registerMbeans..................false
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - scheduledExecutor...............none
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - schema..........................none
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - threadFactory...................internal
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - transactionIsolation............default
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - username........................"springuser"
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.HikariConfig - validationTimeout...............5000
+2024-12-29 13:48:28 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2024-12-29 13:48:28 INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f70e244
+2024-12-29 13:48:28 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=1, active=1, idle=0, waiting=0)
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@602518d7
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2024-12-29 13:48:28 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@518fbaf7
+2024-12-29 13:48:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=3, active=0, idle=3, waiting=0)
+2024-12-29 13:48:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ae798
+2024-12-29 13:48:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=4, active=0, idle=4, waiting=0)
+2024-12-29 13:48:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4449b3b
+2024-12-29 13:48:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=5, active=0, idle=5, waiting=0)
+2024-12-29 13:48:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@a53b29a
+2024-12-29 13:48:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=6, active=0, idle=6, waiting=0)
+2024-12-29 13:48:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@55334179
+2024-12-29 13:48:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=7, active=0, idle=7, waiting=0)
+2024-12-29 13:48:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@16ab0b9b
+2024-12-29 13:48:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=8, active=0, idle=8, waiting=0)
+2024-12-29 13:48:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58de287a
+2024-12-29 13:48:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=9, active=0, idle=9, waiting=0)
+2024-12-29 13:48:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4a3250ba
+2024-12-29 13:48:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After adding stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:48:29 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Connection not added, stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:48:58 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Pool stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:48:58 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Fill pool skipped, pool has sufficient level or currently being filled.
+2024-12-29 13:49:00 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2024-12-29 13:49:00 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Before shutdown stats (total=10, active=0, idle=10, waiting=0)
+2024-12-29 13:49:00 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@7f70e244: (connection evicted)
+2024-12-29 13:49:00 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@602518d7: (connection evicted)
+2024-12-29 13:49:00 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@518fbaf7: (connection evicted)
+2024-12-29 13:49:00 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@ae798: (connection evicted)
+2024-12-29 13:49:00 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4449b3b: (connection evicted)
+2024-12-29 13:49:00 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@a53b29a: (connection evicted)
+2024-12-29 13:49:00 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@55334179: (connection evicted)
+2024-12-29 13:49:00 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@16ab0b9b: (connection evicted)
+2024-12-29 13:49:00 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@58de287a: (connection evicted)
+2024-12-29 13:49:00 DEBUG com.zaxxer.hikari.pool.PoolBase - HikariPool-1 - Closing connection com.mysql.cj.jdbc.ConnectionImpl@4a3250ba: (connection evicted)
+2024-12-29 13:49:00 DEBUG com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - After shutdown stats (total=0, active=0, idle=0, waiting=0)
+2024-12-29 13:49:00 INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
