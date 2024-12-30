@@ -66,7 +66,7 @@ public class TeacherController {
         } catch (EntityAlreadyExistsException | EntityInvalidArgumentException e) {
             LOGGER.error("teacher with vat {} not inserted", teacherInsertDTO.getVat());
             model.addAttribute("error", e.getMessage());
-            return "teacher-form";
+            return "student-form";
         }
         TeacherReadOnlyDTO teacherReadOnlyDTO = mapper.mapToTeacherReadOnlyDTO(savedTeacher);
         model.addAttribute("teacher", teacherReadOnlyDTO);

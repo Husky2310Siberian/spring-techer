@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:sec="http://www.thymeleaf.org/extras/springsecurity">
 <head>
 </head>
 <body>
@@ -13,12 +13,11 @@
             <span class="title">Coding Factory - Education Reinvented</span>
         </div>
         <div class="login-name">
-            <span th:text="Name"></span> <!-- Username or identifier -->
-            <a class="log-out" th:href="@{/logout}">Έξοδος</a>
+            <span sec:authorize="isAuthenticated()" th:text="${#authentication.name}"></span>
+            <a class="log-out" th:href="@{/logout}" sec:authorize="isAuthenticated()">Έξοδος</a>
         </div>
     </div>
     <div class="line"></div>
 </header>
-
 </body>
 </html>

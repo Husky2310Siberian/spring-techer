@@ -27,5 +27,4 @@ public class TeacherInsertDTO {
 
     @NotNull(message = "region must not be null")
     private Long regionId;
-
 }
