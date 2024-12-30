@@ -8,10 +8,10 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 import java.util.Optional;
 
-//@Repository
+@Repository
 public interface StudentRepository extends JpaRepository<Student, Long> , JpaSpecificationExecutor<Student> {
-    List<Student> findByProgram(Long id);
+    List<Student> findByProgramId(Long id);
     Optional<Student> findByUuid(String uuid);
     Optional<Student> findByIdentityNumber(String identityNumber);
-    Optional<Student> findByTeacher(Long id);
+    Optional<Student> findByTeacherId(Long teacherId);
 }
